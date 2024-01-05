@@ -27,7 +27,7 @@ const config = {
         // This will be the same name as the function in the utility class.
         layoutAsync: generateCustomLayoutAsync,
         // Replace this with your specific OAUTH token
-        slackOAuthToken: 'xoxb-5169823558642-6192591548086-3w0q8Qroe3OuysxzM44dp5AB',
+        slackOAuthToken: 'insert-token-here',
         // This will show all of the errors in the replies to the message rather than cluttering up the main message.
         showInThread: true
       }
