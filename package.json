@@ -1,0 +1,22 @@
+{
+  "name": "node-js-playwright-browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sample-test": "npx playwright test --config=./playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.0",
+    "@slack/types": "^2.10.0",
+    "browserstack-node-sdk": "latest",
+    "playwright-slack-report": "^1.1.25",
+    "slack-block-builder": "^2.7.2"
+  },
+  "dependencies": {
+    "replace": "^1.2.2"
+  }
+}
